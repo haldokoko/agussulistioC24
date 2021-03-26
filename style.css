@@ -160,69 +160,100 @@ html, body, .grid-container {
      margin-top: 20px;
     }
    
-   @media  (max-width: 768px) {
-
-    body {
-      margin: 0 5px;
-    }
-    .sidebar h2 {
-      text-align: center;
-    }
-    .img {
-      text-align: center;
-    }
-    .grid-container {
-       grid-template-columns: 1fr;
-       grid-template-areas: 
-         "header"
-         "wraper"
-         "sidebar"
-         "article"
-         "footer";
-     }
-
-    /* PART YANG DIEDIT REZKI */
-     nav ul li {
-         background: rgba(255, 68, 0, 0.637);
-         padding: 5px 0;
-         padding-left: 15px;
-         border-radius: 10px;
-     }
-
-     nav ul li a {
-         color: white;
-     }
-
-     .raper h1 {
-         text-shadow: 1px 1px rgb(36, 20, 13);
-         color: rgb(255, 255, 255, 0.9);
-         font-size: 24px;
-         font-weight: lighter;
-         margin-top: 25vh;
-     }
-
-     .raper h1 span {
-         width: 100%;
-         display: block;
-     }
-
-     .title {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background: rgba(255, 255, 255, 0.507);
-        padding-bottom: 35px;
-        height: auto;
-     }
-
-     .title h1 {
-         color:white;
-         text-shadow: 1px 35px rgba(128, 128, 128, 0.513);
-     }
-
-     .title span{
-         animation: none;
-     }
 
 
-
-    }
+     
+    @media  (max-width: 768px) {
+      body {
+        margin: 0 5px;
+      }
+      .sidebar h2 {
+        text-align: center;
+      }
+      .img {
+        text-align: center;
+      }
+      .grid-container {
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+           "header"
+           "wraper"
+           "sidebar"
+           "article"
+           "footer";
+       }
+  
+      
+       nav ul {
+           margin-right: 7.55vw;
+       }
+  
+       nav ul li a {
+           box-shadow: 3px 3px 3px rgb(173, 173, 173);
+       }
+  
+       nav .logo {
+          margin-left: 13px;
+       }
+  
+       .logo #textC24 {
+          position: absolute;
+          top: -15px;
+          left: -15px;
+          transform: skew(10deg);
+      }
    
+      .logo #textC24:hover {
+         transform: translate(30px);
+         transition: 1s ease;
+      }
+  
+       nav ul li a {
+           color: orangered;
+           font-size: smaller;
+           padding: 3px 7.5px;
+           border-radius: 3px;
+       }
+  
+       nav ul li:hover {
+          border: 0;
+          border-radius: 0;
+          padding-right: 0;
+          text-align: 0;
+          padding-left: 0;
+          transition: none;
+      }
+  
+       .raper h1 {
+           text-shadow: 1px 1px rgb(36, 20, 13);
+           color: rgb(255, 255, 255, 0.9);
+           font-size: 20px;
+           font-weight: bolder;
+           margin-top: 25vh;
+       }
+  
+       .raper h1 span {
+           width: 100%;
+           display: block;
+       }
+  
+       .title {
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          background: rgba(255, 255, 255, 0.274);
+          padding-bottom: 35px;
+          height: auto;
+       }
+  
+       .title h1 {
+           color:white;
+           text-shadow: 1px 5px rgba(128, 128, 128, 0.513);
+       }
+  
+       .title span{
+           animation: none;
+           padding-right: 6.5vw;
+       }
+  
+       
+  
+      }
