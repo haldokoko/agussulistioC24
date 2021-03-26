@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profesinal teamc24</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="grid-container">
+    <header class="header">
+      <nav>
+        <div class="logo">
+          <h2 id="textC24">C24</h2>
+          <h2>Professional</h2>
+        </div>
+        <ul>
+          <li>
+            <a href="#profile"> Profile </a>
+          </li>
+          <li>
+            <a href="#post">Post</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- & header -->
+    <div class="wraper">
+      <div class="raper">
+        <div class="title">
+          <h1> Professional is our priority!
+            <span class="blink"> Do you love the utmost quality?</span>
+          </h1>
+        </div>
+        <span class="source">
+          <h6>Photo by Cadeau Maestro from Pexels </h6>
+        </span>
+      </div>
+    </div>
+    <!-- & wraper -->
+
+    <div class="sidebar">
+      <h2>ADMINSTRATOR</h2>
+      <div id="profile" class="img">
+        <img src="./img/rating.png" alt="" style="width: 200px;">
+        <h3>Hubungi Kami</h3>
+        <ul style="list-style: none;">
+          <li>Team : Project</li>
+          <p>twitter:@agus</p>
+          <p>twitter:@rezky</p>
+          <p>twitter:@haldoko</p>
+        </ul>
+      </div>
+    </div>
+    <!-- & asidebar -->
+    <div class="article">
+      <div id="post" class="post">
+        <h3>judul</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, pariatur rerum minus, similique consequatur
+          adipisci eius assumenda eos nostrum a animi quia doloribus, porro illo ex voluptate deleniti hic! Consectetur,
+          blanditiis vitae laudantium, doloribus, laborum deleniti quisquam esse exercitationem inventore molestias
+          dolorum
+          et quaerat adipisci maxime delectus eos libero nemo.....
+        </p>
+        <button>detail</button>
+      </div>
+      <!-- & post1 -->
+      <div class="post">
+        <h3>judul</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, pariatur rerum minus, similique consequatur
+          adipisci eius assumenda eos nostrum a animi quia doloribus, porro illo ex voluptate deleniti hic! Consectetur,
+          blanditiis vitae laudantium, doloribus, laborum deleniti quisquam esse exercitationem inventore molestias
+          dolorum
+          et quaerat adipisci maxime delectus eos libero nemo.....
+        </p>
+        <button>detail</button>
+      </div>
+      <!-- &post2 -->
+      <div class="post">
+        <h3>judul</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, pariatur rerum minus, similique consequatur
+          adipisci eius assumenda eos nostrum a animi quia doloribus, porro illo ex voluptate deleniti hic! Consectetur,
+          blanditiis vitae laudantium, doloribus, laborum deleniti quisquam esse exercitationem inventore molestias
+          dolorum
+          et quaerat adipisci maxime delectus eos libero nemo.....
+        </p>
+        <button>detail</button>
+      </div>
+      <!-- &post -->
+    </div>
+    <!-- &grid container -->
+    <!-- & article -->
+    <div class="footer">
+      <footer>
+        <p>Copy Right &#169 agus sulistio </p>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    let str = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ea vel excepturi, iste suscipit, temporibus adipisci illo facere eius esse quos nesciunt aliquam consequatur sint repellat nemo amet animi rerum ipsam est atque possimus provident! Sit facilis repellat consectetur ipsam modi nobis voluptatem accusamus commodi, eos velit error vitae quidem sapiente quos, labore perferendis doloribus quia. Recusandae quo saepe similique adipisci harum est inventore odit, magni aliquam blanditiis nulla! Minus, incidunt asperiores eaque, inventore cupiditate eveniet odit cum minima expedita totam delectus veniam aut repellendus eum blanditiis accusantium dignissimos. Et praesentium, similique earum quisquam quos optio ratione quasi pariatur porro.";
+    let replacedStr = str.split(' ').join('');
+
+
+    let pattern = "uatur sint repellat nemo amet animi rerum ipsam est atque possimus provident! Sit facilis repellat consectetur ipsam modi nobis voluptatem accusamus commodi, eos velit error vitae quidem sapiente quos, labore perferendis doloribus quia. Recusandae quo saepe similique adipisci harum est ";
+    let replacedPattern = pattern.split(' ').join('');
+
+    const matching = replacedPattern.match(pattern);
+
+    console.log(replacedPattern.toLowerCase());
+
+    //   console.log(matching);
+    //   let rst = Math.round(matching.length/str.length*100);
+    //   console.log("Similiarity: " + rst + "%");
+  </script>
+</body>
+
+</html>
