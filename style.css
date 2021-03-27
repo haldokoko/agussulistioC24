@@ -418,7 +418,10 @@ html, body, .grid-container {
                animation: none;
                padding-right: 6.5vw;
            }
-      
+           .article .post h6 {
+            font-size: 0.8rem;
+           
+           }
        
     
            .article .post h3 {
@@ -427,14 +430,10 @@ html, body, .grid-container {
            }
        
            .article .post p {
-              padding-right: 25vw; 
-             font-size: 14px;
+            padding-right: 25vw; 
+             font-size:  1.2rem;
              font-family: serif;
              line-height: 2rem;
-           }
-      /* .footer {
-        
-      padding-right: 30vw;
-      } */
+     
         
     }
