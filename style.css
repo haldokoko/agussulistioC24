@@ -428,6 +428,7 @@ html, body, .grid-container {
               padding-right: 40vw; 
              font-size: 14px;
              font-family: serif;
+             line-height: 2rem;
            }
       .footer {
         
