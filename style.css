@@ -418,15 +418,16 @@ html, body, .grid-container {
                animation: none;
                padding-right: 6.5vw;
            }
-           .article .post h6 {
-            font-size: 0.8rem;
-           
-           }
+          
        
     
            .article .post h3 {
-            font-size: small;
+            font-size:  1.2em;
             padding-right: 40vw;
+           }
+           .article .post h6 {
+            font-size: 0.8rem;
+           
            }
        
            .article .post p {
