@@ -325,27 +325,15 @@ html, body, .grid-container {
           margin-left: 50px;
         }
         .sidebar h2 {
-           /* padding-left: 30px; */
+         
           margin-left: 35px;
           font-size: 16px;
         }
           .flex{
            flex-wrap: wrap;
-            /* justify-items: center; */
+           
           }
-          /* .sidebar h2 {
-            text-align: center;
-          } */
-          /* .img {
-            
-            padding: 0 70px;
-          } */
-          /* .side p {
-            display: flex;
-            text-align: center;
-            justify-content: center;
-              
-          } */
+        
           .grid-container {
              grid-template-columns: 1fr;
              grid-template-areas: 
@@ -359,7 +347,7 @@ html, body, .grid-container {
         
            nav ul {
                margin-right: 45vw;
-               /* margin-right: 7.55vw; */
+               
            }
       
            nav ul li a {
@@ -442,7 +430,7 @@ html, body, .grid-container {
              font-family: serif;
            }
       .footer {
-        /* margin-right: 30vw; */
+        
       padding-right: 30vw;
       }
         
