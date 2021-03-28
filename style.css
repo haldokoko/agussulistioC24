@@ -454,14 +454,23 @@ html, body, .grid-container {
          
         }
          
+        .boxLogin {
+          position: absolute;
+          width: 100%;
+          top: 100px;
+          transform: none;
+          right: 0;
+          z-index: 0;
+          top: 50px;
+      }
         
-       .boxLogin {
+       /* .boxLogin {
         position: absolute;
         width: 100%;
-        /* top: 100px; */
+        top: 100px;
         transform: none;
         right: 0;
-        }
+        } */
        
         .boxLogin .firstBox {
         margin-top: 5vmax;
