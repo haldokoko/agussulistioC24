@@ -449,7 +449,10 @@ html, body, .grid-container {
             "article"
             "footer";
         }
-       
+        .profile{
+          margin-left: 40px;
+         
+        }
          
         
        .boxLogin {
@@ -565,9 +568,9 @@ html, body, .grid-container {
              
            }
           
-         .profile{
+         /* .profile{
           margin-left: 30px;
-          }
+          } */
           .sidebar h2 {
          
           margin-left: 35px;
