@@ -449,9 +449,7 @@ html, body, .grid-container {
             "article"
             "footer";
         }
-        .header .wraper .sidebar article .footer {
-          width: 100vw;
-        }
+        nav ul li { padding-right: 5px;}
          
         
        .boxLogin {
