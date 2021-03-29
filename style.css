@@ -167,6 +167,50 @@ html, body, .grid-container {
       border-radius: 5px;
    }
   }
+  /* ------------slide------------------- */
+  .slider {
+    position: relative;
+    background: black;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2.5vh;
+    padding: 30px 20px;
+  }
+
+  .slider h4 {
+    color: orangered;
+  }
+
+  .slider .isi-slider {
+    padding: 10px;
+  }
+
+  .slider .active {
+    width: 120px;
+    height: 120px;
+    box-shadow: 3px 3px 3px gray;
+    margin-right: 10px;
+    transition: ease-in-out .6s;
+  }
+
+  .slider .active:hover {
+    transform: scale(3);
+    box-shadow: 3px 3px 3px black;
+  }
+
+  .slider p {
+    position: absolute;
+    bottom: 3px;
+    padding-bottom: 10px;
+    color: rgba(128, 128, 128, 0.47);
+  }
+
+
+
+  /* ----------------&slide----------------- */
 
  
  .sidebar { grid-area: sidebar; }
@@ -465,11 +509,11 @@ html, body, .grid-container {
         .menu{
           display:none;
         }      
-  .dropdown .dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-  }
+       .dropdown .dropbtn {
+          display: block;
+         width: 100%;
+         text-align: left;
+         }
 
 
          nav ul {
@@ -608,8 +652,46 @@ html, body, .grid-container {
           margin: 3vh auto;
           color: green;
         }
+        
       .hijab{
-        width:50%; height:25%;padding-left: 25px;margin-right: 40px;
+        width:25%; height:25%;padding-left: 25px;margin-right: 40px;
       }
+
+
+      
+      .slider {
+        background: aliceblue;
+        border: 1px dashed lightgray;
+        margin: 5px;
+        box-shadow: 1px 2px 2px gray;
+       }
+      
+       .isi-slider {
+         height: 275px;
+         overflow: scroll;
+         padding-bottom: 5px;
+       }
+      
+       .slider .active {
+         width: 100%;
+         height: 350px;
+         margin-top: 10px;
+       }
+      
+       .slider h4 {
+         color: royalblue;
+         position: absolute;
+         top: -3vmax;
+         font-size: 20px;
+       }
+      
+       .slider p {
+         bottom: -10px;
+         font-size: smaller;
+         font-style: italic;
+       }
+
+       .slider .active:hover {transform: none}
+
       
   }
