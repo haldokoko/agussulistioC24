@@ -558,16 +558,11 @@ html, body, .grid-container {
         }
        
       
-        .article .post h3 {
-          font-size:  1.2em;
-          padding-right: 40vw;
-         }
-         
-         .article .post p {
-          padding-right: 25vw; 
-           font-size:  1.2rem;
-           font-family: serif;
-           line-height: 2rem;
+     
+         .article {
+          display: flex;
+          flex-wrap: wrap;
+          align-content: center;
          }
          
          nav ul li {
