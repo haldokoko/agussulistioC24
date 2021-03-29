@@ -545,7 +545,7 @@ html, body, .grid-container {
          }
         .flex{
           flex-wrap: wrap;
-           
+          justify-content: center;
          }
         
        .profile{
@@ -614,7 +614,7 @@ html, body, .grid-container {
           color: green;
         }
       .hijab{
-        width:25%; height:25%;padding-left: 25px;margin-right: 40px;
+        width:50%; height:25%;padding-left: 25px;margin-right: 40px;
       }
       
   }
