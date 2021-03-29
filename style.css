@@ -685,11 +685,11 @@ html, body, .grid-container {
          font-size: 20px;
        }
       
-       .slider p {
+       /* .slider p {
          bottom: -10px;
          font-size: smaller;
          font-style: italic;
-       }
+       } */
 
        .slider .active:hover {transform: none}
 
